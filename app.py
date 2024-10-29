@@ -142,7 +142,7 @@ with col5:
 
 #--- API key ---#
 with col6:
-    api_key = st.text_input('API Key', value='YOUR_API_KEY', help='Register for an API key at https://www.dataportal.dol.gov/registration. If you are already registered, sign-in to the open data portal first and then get your key at https://www.dataportal.dol.gov/api-keys.')
+    api_key = st.text_input('Demo API Key', value='cmYH7_DdqtL1We6LrKBZc3C54VG19gTOrNmWwWXiXxc', help='Register for an API key at https://www.dataportal.dol.gov/registration. If you are already registered, sign-in to the open data portal first and then get your key at https://www.dataportal.dol.gov/api-keys.')
 
 basic_api = f'{base_url}/{method}/{agency}/{dataset}/{formats}?X-API-KEY={api_key}'
 basic_meta_api = f'{base_url}/{method}/{agency}/{dataset}/{formats}/metadata?X-API-KEY={api_key}'
