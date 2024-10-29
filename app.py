@@ -49,6 +49,8 @@ st.sidebar.header('About the API Explorer')
                    
 st.sidebar.markdown('''
     The **DOL API** is a web service that provides on-demand access to machine readable metadata and data. This tool was developed to educate and train new users on the API's structure and operation. 
+
+    To get official DOL data, visit the [Open Data Portal](https://www.dataportal.dol.gov).
                 
     **Resources:**
     ''')
