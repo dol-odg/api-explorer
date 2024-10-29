@@ -106,7 +106,7 @@ def create_agency_endpoint_table(agency=None):
     datasets['api_url'] = datasets['api_url'].str.lower()
     agency_name = []
     agency_abbr = []
-    for idx, row in datasets['agency'].iteritems():
+    for idx, row in datasets['agency'].items():
         l = row.keys()
         if 'name' in l:
             agency_name.append(row['name'].lower())
